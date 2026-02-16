@@ -9,8 +9,8 @@ from datetime import datetime
 from fastapi_users.db import SQLAlchemyUserDatabase, SQLAlchemyBaseUserTableUUID
 from fastapi import Depends
 
-# DATABASE_URL = 'sqlite+aiosqlite:///./database.db'
-DATABASE_URL = 'sqlite+asyncpg:///./database.db'
+DATABASE_URL = 'sqlite+aiosqlite:///./database.db'
+# DATABASE_URL = 'sqlite+asyncpg:///./database.db'
 
 class Base(DeclarativeBase):
     pass
