@@ -20,6 +20,7 @@ app = FastAPI(lifespan=lifespan, debug=True)
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "http://192.168.100.31:5173/",
     "http://logicloom.qzz.io"
     # Add more origins here
 ]
