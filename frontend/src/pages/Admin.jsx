@@ -9,7 +9,7 @@ import {
 import TabPanel from '../components/TabPanel';
 import MessagesPanel from '../components/MessagesPanel'
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://logic-loom-production.up.railway.app';
 
 const Admin = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
