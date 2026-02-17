@@ -21,7 +21,9 @@ origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "http://192.168.100.31:5173/",
-    "http://logicloom.qzz.io"
+    "http://logicloom.qzz.io",
+    "https://logicloom.qzz.io",
+    "https://faizan-py-314.github.io"
     # Add more origins here
 ]
 
